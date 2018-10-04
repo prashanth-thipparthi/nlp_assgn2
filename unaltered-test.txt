@@ -1,0 +1,215 @@
+1	i	PRP
+2	'd	MD
+3	like	VB
+4	to	TO
+5	go	VB
+6	to	IN
+7	a	DT
+8	fancy	JJ
+9	restaurant	NN
+10	.	.
+
+1	i	PRP
+2	'd	MD
+3	like	VB
+4	french	JJ
+5	food	NN
+6	.	.
+
+1	next	JJ
+2	thursday	NN
+3	.	.
+
+1	next	JJ
+2	thursday	NN
+3	.	.
+
+1	dinner	NN
+2	.	.
+
+1	i	PRP
+2	want	VBP
+3	to	TO
+4	eat	VB
+5	french	JJ
+6	food	NN
+7	.	.
+
+1	i	PRP
+2	want	VBP
+3	to	TO
+4	have	VB
+5	dinner	NN
+6	.	.
+
+1	it	PRP
+2	can	MD
+3	be	VB
+4	really	RB
+5	expensive	JJ
+6	.	.
+
+1	as	RB
+2	far	RB
+3	away	RB
+4	as	IN
+5	we	PRP
+6	can	MD
+7	get	VB
+8	.	.
+
+1	as	RB
+2	far	RB
+3	away	RB
+4	as	IN
+5	we	PRP
+6	can	MD
+7	get	VB
+8	.	.
+
+1	as	RB
+2	far	RB
+3	away	RB
+4	as	IN
+5	we	PRP
+6	can	MD
+7	get	VB
+8	.	.
+
+1	i	PRP
+2	want	VBP
+3	to	TO
+4	be	VB
+5	far	RB
+6	away	RB
+7	from	IN
+8	icsi	NN
+9	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	le	FW
+5	bateau	FW
+6	ivre	FW
+7	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	le	FW
+5	bateau	FW
+6	ivre	FW
+7	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	le	FW
+5	bateau	FW
+6	ivre	FW
+7	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	le	FW
+5	bateau	FW
+6	ivre	FW
+7	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	le	FW
+5	bateau	FW
+6	ivre	FW
+7	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	a	DT
+5	-	HYPH
+6	la	NN
+7	-	HYPH
+8	carte	NN
+9	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	a	DT
+5	-	HYPH
+6	la	NN
+7	-	HYPH
+8	carte	NN
+9	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	a	DT
+5	-	HYPH
+6	la	NN
+7	-	HYPH
+8	carte	NN
+9	.	.
+
+1	tell	VB
+2	me	PRP
+3	about	IN
+4	a	DT
+5	-	HYPH
+6	la	NN
+7	-	HYPH
+8	carte	NN
+9	.	.
+
+1	show	VB
+2	me	PRP
+3	the	DT
+4	list	NN
+5	again	RB
+6	.	.
+
+1	let	VB
+2	me	PRP
+3	see	VB
+4	the	DT
+5	list	NN
+6	again	RB
+7	.	.
+
+1	let	VB
+2	me	PRP
+3	see	VB
+4	the	DT
+5	list	NN
+6	again	RB
+7	.	.
+
+1	i	PRP
+2	want	VBP
+3	the	DT
+4	restaurant	NN
+5	to	TO
+6	be	VB
+7	really	RB
+8	close	JJ
+9	to	IN
+10	icsi	NN
+11	.	.
+
+1	i	PRP
+2	want	VBP
+3	to	TO
+4	eat	VB
+5	breakfast	NN
+6	instead	RB
+7	.	.
+
+1	start	VB
+2	over	RP
+3	.	.
+
