@@ -11,7 +11,7 @@ test_file_name = "test.txt"
 output_file_name = "viterbi-output.txt"
 unknown_symbol = "UNK"
 prefixPattern = "(^[0-9])"
-bigram_word_separator = "|"
+tagSeparator = "|"
 my_hmm_name = "hmm"
 start_state = "."
 
@@ -58,7 +58,6 @@ def partitionData(content):
     training = []
     test = []
     for k in range (int(len(content)/10)):
-        print("1")
         if content[k].strip():
             sentences = content[k].strip().split(',')
             for j in range(len(sentences)):
@@ -69,7 +68,6 @@ def partitionData(content):
             f2.write('\n')
     i = 0
     while i < int(len(content)-len(content)/10):
-        print("2")
         if content[i].strip():
             sentences = content[i].strip().split(',')
             for j in range(len(sentences)):
@@ -81,7 +79,6 @@ def partitionData(content):
         i+=1
 
     for i in range(len(unaltered_test)):
-        print("3")
         if unaltered_test[i].strip():
             sentences = unaltered_test[i].strip().split(',')
             for j in range(len(sentences)):
@@ -102,6 +99,7 @@ def partitionData(content):
 def UnigramCount(train):
     unigram_tag_count_dict = {}
     unigram_word_count_dict = {}
+    total_no_of_words = 0
     for line in train:
         splitLine = line.split('\t')
         # Types and count of respective unigrams (tags)
@@ -117,17 +115,229 @@ def UnigramCount(train):
                 unigram_word_count_dict[splitLine[1]] += 1
             else:
                 unigram_word_count_dict[splitLine[1]] = int(1)
+            total_no_of_words +=1
 
-    return unigram_tag_count_dict, unigram_word_count_dict
+    return unigram_tag_count_dict, unigram_word_count_dict, total_no_of_words
 
 #######   Unigram  word and tag count #########
+
+def unigram_verification(unigrams, total_words, flag):
+    unigram_prob = 0
+    unigram_prob_dict = {}
+    for key in unigrams:
+        unigram_prob = (unigrams[key]/total_words)
+        unigram_prob_dict[key] = unigram_prob
+
+    if flag:
+        print("Unigram Prob sum: " + str(unigram_prob))
+        for key in unigrams.keys():
+            print("Unigram key is:" + key + " ...... count is...... " + str(unigrams[key]))
+    return unigram_prob_dict
+
+def replaceWordWithUnkInTestFile(test, unigram_word_list):
+    unk_word_index_dict = {}
+    for i in range(len(test)):
+        # Reading and splitting of the input data.
+        line = test[i]
+        splitLine = line.split('\t')
+
+        # Types and count of respective unigrams (tags)
+        if len(splitLine) > 1:
+            splitLine[1] = splitLine[1].rstrip()
+
+            if splitLine[1] not in unigram_word_list:
+                unk_word_index_dict[i] = splitLine[1]
+                test[i] = splitLine[0] + "\t"+ unknown_symbol+ "\n"
+            else:
+                test[i] = splitLine[0] + "\t" + splitLine[1] + "\n"
+        else:
+            test[i] = "\n"
+        i += 1
+    return test, unk_word_index_dict
+
+def replaceWordWithUnkInTrainingFile(train, unigram_word_count_dict):
+    for i in range(len(train)):
+        # Reading and splitting of the input data.
+        line = train[i]
+        splitLine = line.split('\t')
+
+        # Types and count of respective unigrams (tags)
+        if len(splitLine) > 1:
+            splitLine[1] = splitLine[1].rstrip()
+
+            if unigram_word_count_dict[splitLine[1]] < 2:
+                train[i] = splitLine[0].strip() + "\t" + unknown_symbol + "\t" + splitLine[2].rstrip() + "\n"
+            else:
+                train[i] = splitLine[0].strip() + "\t" + splitLine[1].strip() + "\t" + splitLine[2].rstrip() + "\n"
+        else:
+            train[i] = "\n"
+        i += 1
+    return train
+
+def UnigramSequence(train):
+    tag_seq = []
+    word_seq = []
+    for line in train:
+        splitLine = line.split('\t')
+        if len(splitLine) > 1:
+            splitLine[1] = splitLine[1].rstrip()
+            splitLine[2] = splitLine[2].rstrip()
+            word_seq.append(splitLine[1])
+            tag_seq.append(splitLine[2])
+    return tag_seq, word_seq
+
+def BigramTransitionMatrix(unique_tags, tag_sequence):
+    transitionMatrix = {}
+    ### initialising transition matrix ###
+    for i in unique_tags:
+        for j in unique_tags:
+            transitionMatrix[i + tagSeparator + j] = 0
+
+    ### Adding counts to the transition matrix ###
+    for i in range(1, len(tag_sequence)):
+        k1 = tag_sequence[i - 1]
+        k2 = tag_sequence[i]
+        fk = k2 + tagSeparator + k1  # currenttag-Prevtag ##P (Tag  given previous tag)
+        if fk in transitionMatrix.keys():
+            transitionMatrix[fk] += 1
+    return transitionMatrix
+
+def EmmissionMatrix(word_sequence, tag_sequence):
+    print("check")
+    word_given_tag_dict = {}
+    for i in range(0, len(tag_sequence)):
+        key = word_sequence[i] + tagSeparator + tag_sequence[i]
+        if key in word_given_tag_dict.keys():
+            word_given_tag_dict[key] += 1
+        else:
+            word_given_tag_dict[key] = 1
+
+    return word_given_tag_dict
+
+def addKBigramSmoothing(k, transitionMatrix, unigram_tag_count_dict):
+    smoothed_bigram_counts = {}
+    smoothed_bigram_probability = {}
+    vocab_size = k * len(transitionMatrix.keys())
+    for bigram_key in transitionMatrix.keys():
+        smoothed_bigram_counts[bigram_key] = transitionMatrix[bigram_key] + k
+
+    for bigram_key in smoothed_bigram_counts.keys():
+        wiminus1 = bigram_key.split(tagSeparator)[1]
+        smoothed_bigram_probability[bigram_key] = smoothed_bigram_counts[bigram_key] / (
+                    unigram_tag_count_dict[wiminus1] + vocab_size)
+    return smoothed_bigram_counts, smoothed_bigram_probability
+
+def Convert_Smoothed_TransitionMatrix_Format(smoothed_transition_probabilty):
+    _words = {}
+    _tags = {}
+    key_split = []
+
+    for item in smoothed_transition_probabilty:
+        arr = item.split("|")
+        if (arr[0] not in _words):
+            _words[arr[0]] = True
+
+        if (arr[1] not in _tags):
+            _tags[arr[1]] = True
+
+    mat = dict()
+    for tag in [*_tags]:
+        mat[tag] = {}
+        for w in [*_words]:
+            mat[tag][w] = 0
+
+    for key1, value1 in smoothed_transition_probabilty.items():
+        arr = key1.split("|")
+        mat[arr[1]][arr[0]] = value1
+    return mat
+
+def prob_EmissionMatrix(word_given_tag_dict, unigram_tag_count_dict):
+    prob_word_given_tag_dict = {}
+    for key, value in word_given_tag_dict.items():
+        wiminus1 = key.split(tagSeparator)[1]
+        # print("key:",key)
+        # print("Value:%s, (unigram_tag_count_dict[wiminus1]) : %s "%(value,unigram_tag_count_dict[wiminus1]))
+        if (wiminus1 is not None):
+            prob_word_given_tag_dict[key] = value / (unigram_tag_count_dict[wiminus1])
+        else:
+            continue
+    return prob_word_given_tag_dict
+
+
+def Convert_EmmissionMatrix_Format(prob_word_given_tag_dict):
+    _words = {}
+    _tags = {}
+    key_split = []
+
+    for item in prob_word_given_tag_dict:
+        arr = item.split("|")
+        if (arr[0] not in _words):
+            _words[arr[0]] = True
+
+        if (arr[1] not in _tags):
+            _tags[arr[1]] = True
+
+    mat = dict()
+    for tag in [*_tags]:
+        mat[tag] = {}
+        for w in [*_words]:
+            mat[tag][w] = 0
+
+    for key1, value1 in prob_word_given_tag_dict.items():
+        arr = key1.split("|")
+        mat[arr[1]][arr[0]] = value1
+    return mat
+
 if __name__ == '__main__':
     # step1 : read in the data file
     content = readFile(data_set_file_name,prefixPattern)
-    print("Content:",content)
+    #print("Content:",content)
     #a = np.arrayprint
+
+    # step 2: partition the data
     train, test = partitionData(content);
-    unigram_tag_count_dict, unigram_word_count_dict = UnigramCount(train)
-    print("Unigram tag count dict:",unigram_tag_count_dict)
-    print("train:",train)
-    print("test:",test)
+
+    # print("Unigram tag count dict:",unigram_tag_count_dict)
+    # print("train:",train)
+    # print("test:",test)
+
+    #step 3 : Unigram
+    unigram_tag_count_dict, unigram_word_count_dict, total_no_of_words = UnigramCount(train)
+    unigram_prob = unigram_verification(unigram_tag_count_dict,total_no_of_words,False)
+    #print(unigram_prob)
+
+    
+    # step 4: UNK handling in test and training data
+    # test.append("3"+'\t'+"mikeTesting"+'\n')
+    test, unk_word_index_dict = replaceWordWithUnkInTestFile(test, unigram_word_count_dict.keys())
+    #print("TEST:",test)
+    # unigram_word_count_dict["mikeTesting"] = 1
+    # train.append("3" + '\t' + "mikeTesting" +'\t' + "check" + '\n')
+    train = replaceWordWithUnkInTrainingFile(train, unigram_word_count_dict)
+    # print("Word_Count_Dict:",unigram_word_count_dict)
+    # print("Train:", train)
+
+    #Step 5 Transition and Emmission Matrices
+    tag_sequence , word_sequence  = UnigramSequence(train)
+    transitionMatrix = BigramTransitionMatrix(unigram_tag_count_dict.keys(), tag_sequence)
+    #print("word_Sequence:",word_sequence)
+    EmissionMatrix = EmmissionMatrix(word_sequence, tag_sequence)
+    print("EmissionMatrix:",EmissionMatrix)
+
+    # Step 6 Probabilities of Matrices
+    k = 0.7
+    smoothedTransitionMatrix, prob_smoothed_transition = addKBigramSmoothing(k, transitionMatrix,
+                                                                                   unigram_tag_count_dict)
+
+    #print("EmissionMatrix:",prob_smoothed_transition)
+
+    prob_EmissionMatrix = prob_EmissionMatrix(EmissionMatrix, unigram_tag_count_dict)
+    #print(prob_EmissionMatrix)
+
+    #Step 7 Converting Matrices to TransitionMatrix = {"tag1" : {'tag2':<count>,'tag3':<count>,'tag4':<count>}}
+    # EmmissionMatrix = {"tag1" : {'word1':<count>,'word2':<count>,'word3':<count>}}
+    prob_SmoothedTransitionMatrix = Convert_Smoothed_TransitionMatrix_Format(prob_smoothed_transition)
+    prob_EmmissionMatrix = Convert_EmmissionMatrix_Format(prob_EmissionMatrix)
+
+    print("EmmissionMatrix:",prob_EmmissionMatrix)
+    print("TransitionMatrix:", prob_SmoothedTransitionMatrix)
