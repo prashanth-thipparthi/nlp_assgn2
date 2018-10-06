@@ -3,8 +3,9 @@ import json
 import os
 import sys
 from random import getrandbits
+import numpy as np
 
-data_set_file_name = "berp-POS-training_Slashed.txt"
+data_set_file_name = "berp-POS-training.txt"
 training_file_name = "training.txt"
 unaltered_test_file_name = "unaltered-test.txt"
 test_file_name = "test.txt"
@@ -88,6 +89,7 @@ def partitionData(content):
                     l = parts[0].strip()+'\t'+parts[1].strip()+'\n'
                     test.append(l)
                     f3.write(parts[0].strip()+'\t'+parts[1].strip()+'\n')
+        else:
             test.append('\n')
             f3.write('\n')
     f1.close()
@@ -288,6 +290,57 @@ def Convert_EmmissionMatrix_Format(prob_word_given_tag_dict):
         mat[arr[1]][arr[0]] = value1
     return mat
 
+def multiply(x, y):
+    return x * y
+
+
+def viterbi_algo(string_tokens, states, emission_prob, tag_transition_prob, start_of_string_state, end_of_string_state):
+    T = len(string_tokens)
+    N = len(states)
+
+    viterbi = np.zeros((N + 3, T + 1))
+    backpointer = np.zeros((N + 3, T + 1))
+
+    for index, state in enumerate(states, 1):
+        tag_trans = tag_transition_prob[start_of_string_state][state]
+        emission = emission_prob[state][string_tokens[0]]
+        viterbi[index, 1] = multiply(tag_trans, emission)
+        backpointer[index, 1] = 0
+
+    for o_i, o in enumerate(string_tokens[1:], 2):
+        for s_i, s in enumerate(states, 1):
+            for _s_i, _s in enumerate(states, 1):
+                prev = viterbi[_s_i, o_i - 1]
+                tag_trans = tag_transition_prob[_s][s]
+                temp = multiply(prev, tag_trans)
+                if temp > viterbi[s_i, o_i]:
+                    viterbi[s_i, o_i] = temp
+                    backpointer[s_i, o_i] = _s_i
+            #print("emission_prob[%s][%s]:%s"%(s,o,emission_prob[s][o]))
+            emission = emission_prob[s][o]
+            viterbi[s_i, o_i] = multiply(viterbi[s_i, o_i], emission)
+
+    for s_i, s in enumerate(states, 1):
+        tag_trans = tag_transition_prob[s][end_of_string_state]
+        temp = multiply(viterbi[s_i, T], tag_trans)
+
+        if temp > viterbi[N + 1, T]:
+            viterbi[N + 1, T] = temp
+            backpointer[N + 1, T] = s_i
+
+    ans = list(np.zeros((len(string_tokens) + 1,)))
+
+    z_i = int(backpointer[N + 1, T])
+    ans[T] = states[z_i - 1]
+
+    for index in range(T, 1, -1):
+        z_i = int(backpointer[z_i, index])
+        ans[index - 1] = states[z_i - 1]
+
+    ans = ans[1:]
+    ans.append(end_of_string_state)
+    return ans
+
 if __name__ == '__main__':
     # step1 : read in the data file
     content = readFile(data_set_file_name,prefixPattern)
@@ -308,21 +361,26 @@ if __name__ == '__main__':
 
     
     # step 4: UNK handling in test and training data
+
+    train = replaceWordWithUnkInTrainingFile(train, unigram_word_count_dict)
+    # print("Word_Count_Dict:",unigram_word_count_dict)
+    # print("Train:", train)
+    unigram_tag_count_dict, unigram_word_count_dict, total_no_of_words = UnigramCount(train)
+    unigram_prob = unigram_verification(unigram_tag_count_dict, total_no_of_words, False)
     # test.append("3"+'\t'+"mikeTesting"+'\n')
     test, unk_word_index_dict = replaceWordWithUnkInTestFile(test, unigram_word_count_dict.keys())
     #print("TEST:",test)
     # unigram_word_count_dict["mikeTesting"] = 1
     # train.append("3" + '\t' + "mikeTesting" +'\t' + "check" + '\n')
-    train = replaceWordWithUnkInTrainingFile(train, unigram_word_count_dict)
-    # print("Word_Count_Dict:",unigram_word_count_dict)
-    # print("Train:", train)
+
+
 
     #Step 5 Transition and Emmission Matrices
     tag_sequence , word_sequence  = UnigramSequence(train)
     transitionMatrix = BigramTransitionMatrix(unigram_tag_count_dict.keys(), tag_sequence)
     #print("word_Sequence:",word_sequence)
     EmissionMatrix = EmmissionMatrix(word_sequence, tag_sequence)
-    print("EmissionMatrix:",EmissionMatrix)
+    #print("EmissionMatrix:",EmissionMatrix)
 
     # Step 6 Probabilities of Matrices
     k = 0.7
@@ -339,5 +397,42 @@ if __name__ == '__main__':
     prob_SmoothedTransitionMatrix = Convert_Smoothed_TransitionMatrix_Format(prob_smoothed_transition)
     prob_EmmissionMatrix = Convert_EmmissionMatrix_Format(prob_EmissionMatrix)
 
-    print("EmmissionMatrix:",prob_EmmissionMatrix)
-    print("TransitionMatrix:", prob_SmoothedTransitionMatrix)
+    # print("EmmissionMatrix:",prob_EmmissionMatrix)
+    # print("TransitionMatrix:", prob_SmoothedTransitionMatrix)
+
+    tokens = []
+    output_lines = []
+    sub_outputs = []
+    START = "."
+    END = "."
+    for i, data in enumerate(test):
+        line = test[i]
+        parts = line.split('\t')
+        if len(parts) > 1:
+            tokens.append(parts[1].rstrip())
+            sub_outputs.append(parts[0].rstrip() + "\t" + parts[1].rstrip())
+        else:
+            answer = viterbi_algo(tokens, [*prob_SmoothedTransitionMatrix], prob_EmmissionMatrix,
+                                  prob_SmoothedTransitionMatrix, START, END)
+
+            for j in range(0, len(sub_outputs)):
+                sub_outputs[j] = sub_outputs[j] + '\t' + answer[j]
+            output_lines.extend(sub_outputs)
+            output_lines.append('\n')
+            sub_outputs = []
+            observations = []
+            tokens = []
+
+    f = open(output_file_name, 'w')
+    for i in range(0, len(output_lines)):
+        output = output_lines[i]
+        if (i not in unk_word_index_dict.keys()):
+                f.write(output)
+                if output.strip():
+                    f.write("\n")
+        else:
+            parts = output.split('\t')
+            if (len(parts) == 3):
+                unk_replaced_output = parts[0].rstrip() + str("\t") + unk_word_index_dict[i] + str('\t') + parts[2].strip() + '\n'
+                f.write(unk_replaced_output)
+    f.close()

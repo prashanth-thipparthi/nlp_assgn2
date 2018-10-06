@@ -52,7 +52,7 @@
 1	as	RB
 2	far	RB
 3	away	RB
-4	as	IN
+4	as	RB
 5	we	PRP
 6	can	MD
 7	get	VB
@@ -61,7 +61,7 @@
 1	as	RB
 2	far	RB
 3	away	RB
-4	as	IN
+4	as	RB
 5	we	PRP
 6	can	MD
 7	get	VB
@@ -70,7 +70,7 @@
 1	as	RB
 2	far	RB
 3	away	RB
-4	as	IN
+4	as	RB
 5	we	PRP
 6	can	MD
 7	get	VB
@@ -133,7 +133,7 @@
 5	-	HYPH
 6	la	NN
 7	-	HYPH
-8	carte	NN
+8	carte	NNP
 9	.	.
 
 1	tell	VB
@@ -143,7 +143,7 @@
 5	-	HYPH
 6	la	NN
 7	-	HYPH
-8	carte	NN
+8	carte	NNP
 9	.	.
 
 1	tell	VB
@@ -153,7 +153,7 @@
 5	-	HYPH
 6	la	NN
 7	-	HYPH
-8	carte	NN
+8	carte	NNP
 9	.	.
 
 1	tell	VB
@@ -163,7 +163,7 @@
 5	-	HYPH
 6	la	NN
 7	-	HYPH
-8	carte	NN
+8	carte	NNP
 9	.	.
 
 1	show	VB
@@ -269,14 +269,14 @@
 11	tomorrow	NN
 12	.	.
 
-1	what	WDT
+1	what	WP
 2	kinds	NNS
 3	of	IN
 4	food	NN
 5	do	VBP
 6	you	PRP
 7	know	VB
-8	about	IN
+8	about	RB
 9	.	.
 
 1	i	PRP
@@ -305,12 +305,12 @@
 4	away	RB
 5	.	.
 
-1	about	RB
+1	about	IN
 2	fifteen	CD
 3	minutes	NNS
 4	.	.
 
-1	about	RB
+1	about	IN
 2	fifteen	CD
 3	minutes	NNS
 4	.	.
@@ -494,7 +494,7 @@
 5	some	DT
 6	really	RB
 7	cheap	JJ
-8	chinese	NN
+8	chinese	JJ
 9	food	NN
 10	right	RB
 11	now	RB
@@ -507,7 +507,7 @@
 5	some	DT
 6	really	RB
 7	cheap	JJ
-8	chinese	NN
+8	chinese	JJ
 9	food	NN
 10	right	RB
 11	now	RB
@@ -520,7 +520,7 @@
 5	some	DT
 6	really	RB
 7	cheap	JJ
-8	chinese	NN
+8	chinese	JJ
 9	food	NN
 10	right	RB
 11	now	RB
@@ -533,7 +533,7 @@
 5	some	DT
 6	really	RB
 7	cheap	JJ
-8	chinese	NN
+8	chinese	JJ
 9	food	NN
 10	right	RB
 11	now	RB
@@ -555,14 +555,14 @@
 6	lunch	NN
 7	.	.
 
-1	about	RB
+1	about	IN
 2	twenty	CD
 3	minutes	NNS
 4	'	POS
 5	walk	NN
 6	.	.
 
-1	about	RB
+1	about	IN
 2	twenty	CD
 3	minutes	NNS
 4	'	POS
@@ -575,7 +575,7 @@
 4	sun-hong-kong	NNP
 5	.	.
 
-1	sun-hong-kong	JJ
+1	sun-hong-kong	NNP
 2	.	.
 
 1	tell	VB
@@ -617,8 +617,8 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	next	RB
-6	monday	NNP
+5	next	JJ
+6	monday	NN
 7	i	PRP
 8	want	VBP
 9	to	TO
@@ -630,8 +630,8 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	next	RB
-6	monday	NNP
+5	next	JJ
+6	monday	NN
 7	i	PRP
 8	want	VBP
 9	to	TO
@@ -643,8 +643,8 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	next	RB
-6	monday	NNP
+5	next	JJ
+6	monday	NN
 7	i	PRP
 8	want	VBP
 9	to	TO
@@ -656,8 +656,8 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	next	RB
-6	monday	NNP
+5	next	JJ
+6	monday	NN
 7	i	PRP
 8	want	VBP
 9	to	TO
@@ -685,8 +685,8 @@
 3	it	PRP
 4	to	TO
 5	be	VB
-6	close	JJ
-7	by	IN
+6	close	RB
+7	by	RB
 8	here	RB
 9	.	.
 
@@ -695,8 +695,8 @@
 3	it	PRP
 4	to	TO
 5	be	VB
-6	close	JJ
-7	by	IN
+6	close	RB
+7	by	RB
 8	here	RB
 9	.	.
 
@@ -707,8 +707,8 @@
 5	it	PRP
 6	to	TO
 7	be	VB
-8	close	JJ
-9	by	IN
+8	close	RB
+9	by	RB
 10	.	.
 
 1	i	PRP
@@ -718,8 +718,8 @@
 5	it	PRP
 6	to	TO
 7	be	VB
-8	close	JJ
-9	by	IN
+8	close	RB
+9	by	RB
 10	.	.
 
 1	i	PRP
@@ -729,8 +729,8 @@
 5	it	PRP
 6	to	TO
 7	be	VB
-8	close	JJ
-9	by	IN
+8	close	RB
+9	by	RB
 10	.	.
 
 1	close	RB
@@ -741,7 +741,7 @@
 2	by	RB
 3	.	.
 
-1	about	RB
+1	about	IN
 2	five	CD
 3	minutes	NNS
 4	'	POS
@@ -750,7 +750,7 @@
 7	icsi	NN
 8	.	.
 
-1	about	RB
+1	about	IN
 2	five	CD
 3	minutes	NNS
 4	'	POS
@@ -1330,7 +1330,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1348,7 +1348,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1366,7 +1366,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1384,7 +1384,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1402,7 +1402,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1420,7 +1420,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1438,7 +1438,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1456,7 +1456,7 @@
 2	want	VBP
 3	to	TO
 4	eat	VB
-5	california	NN
+5	california	JJ
 6	food	NN
 7	and	CC
 8	um	UH
@@ -1736,7 +1736,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1750,7 +1750,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1764,7 +1764,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1778,7 +1778,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1792,7 +1792,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1806,7 +1806,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1820,7 +1820,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1834,7 +1834,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1848,7 +1848,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1862,7 +1862,7 @@
 
 1	i	PRP
 2	want	VBP
-3	california	NN
+3	california	JJ
 4	cuisine	NN
 5	and	CC
 6	i	PRP
@@ -1929,7 +1929,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -1954,7 +1954,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -1979,7 +1979,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2004,7 +2004,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2029,7 +2029,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2054,7 +2054,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2079,7 +2079,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2104,7 +2104,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2129,7 +2129,7 @@
 9	in	IN
 10	a	DT
 11	hurry	NN
-12	so	IN
+12	so	RB
 13	it	PRP
 14	should	MD
 15	be	VB
@@ -2155,7 +2155,7 @@
 3	to	TO
 4	eat	VB
 5	today	NN
-6	real	JJ
+6	real	RB
 7	soon	RB
 8	.	.
 
@@ -2164,7 +2164,7 @@
 3	to	TO
 4	eat	VB
 5	today	NN
-6	real	JJ
+6	real	RB
 7	soon	RB
 8	.	.
 
@@ -2173,7 +2173,7 @@
 3	to	TO
 4	eat	VB
 5	today	NN
-6	real	JJ
+6	real	RB
 7	soon	RB
 8	.	.
 
@@ -2182,7 +2182,7 @@
 3	to	TO
 4	eat	VB
 5	today	NN
-6	real	JJ
+6	real	RB
 7	soon	RB
 8	.	.
 
@@ -2378,7 +2378,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2399,7 +2399,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2420,7 +2420,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2441,7 +2441,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2462,7 +2462,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2483,7 +2483,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2504,7 +2504,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2525,7 +2525,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2546,7 +2546,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2567,7 +2567,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2588,7 +2588,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2609,7 +2609,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2630,7 +2630,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2651,7 +2651,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2672,7 +2672,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2693,7 +2693,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2714,7 +2714,7 @@
 11	be	VB
 12	french	JJ
 13	or	CC
-14	california	JJ
+14	california	NN
 15	or	CC
 16	just	RB
 17	plain	JJ
@@ -2764,7 +2764,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2798,7 +2798,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2832,7 +2832,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2866,7 +2866,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2900,7 +2900,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2934,7 +2934,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -2968,7 +2968,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3002,7 +3002,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3036,7 +3036,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3070,7 +3070,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3104,7 +3104,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3138,7 +3138,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3172,7 +3172,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3206,7 +3206,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3240,7 +3240,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3274,7 +3274,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3308,7 +3308,7 @@
 24	i	PRP
 25	do	VBP
 26	n't	RB
-27	want	VB
+27	want	VBP
 28	it	PRP
 29	too	RB
 30	far	RB
@@ -3371,7 +3371,7 @@
 3	n't	RB
 4	we	PRP
 5	just	RB
-6	go	VBP
+6	go	VB
 7	out	RP
 8	for	IN
 9	pizza	NN
@@ -3383,7 +3383,7 @@
 3	n't	RB
 4	we	PRP
 5	just	RB
-6	go	VBP
+6	go	VB
 7	out	RP
 8	for	IN
 9	pizza	NN
@@ -3628,7 +3628,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3636,7 +3636,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3656,7 +3656,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3664,7 +3664,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3684,7 +3684,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3692,7 +3692,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3712,7 +3712,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3720,7 +3720,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3740,7 +3740,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3748,7 +3748,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3768,7 +3768,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3776,7 +3776,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3796,7 +3796,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3804,7 +3804,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3824,7 +3824,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3832,7 +3832,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3852,7 +3852,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3860,7 +3860,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3880,7 +3880,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3888,7 +3888,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3908,7 +3908,7 @@
 6	for	IN
 7	dinner	NN
 8	this	DT
-9	friday	NNP
+9	friday	NN
 10	and	CC
 11	uh	UH
 12	i	PRP
@@ -3916,7 +3916,7 @@
 14	got	VBN
 15	a	DT
 16	car	NN
-17	so	IN
+17	so	RB
 18	it	PRP
 19	does	VBZ
 20	n't	RB
@@ -3928,11 +3928,11 @@
 26	is	VBZ
 27	.	.
 
-1	friday	VB
+1	friday	NN
 2	dammit	NN
 3	.	.
 
-1	friday	VB
+1	friday	NN
 2	dammit	NN
 3	.	.
 
@@ -3948,8 +3948,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -3964,8 +3964,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -3980,8 +3980,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -3996,8 +3996,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -4012,8 +4012,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -4028,8 +4028,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -4044,8 +4044,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -4060,8 +4060,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	oh	UH
@@ -4076,8 +4076,8 @@
 10	money	NN
 11	is	VBZ
 12	no	UH
-13	no	RB
-14	matter	RB
+13	no	UH
+14	matter	VB
 15	.	.
 
 1	we	PRP
@@ -4260,7 +4260,7 @@
 5	to	TO
 6	have	VB
 7	um	UH
-8	lunch	VB
+8	lunch	NN
 9	.	.
 
 1	uh	UH
@@ -4270,7 +4270,7 @@
 5	to	TO
 6	have	VB
 7	um	UH
-8	lunch	VB
+8	lunch	NN
 9	.	.
 
 1	uh	UH
@@ -4280,7 +4280,7 @@
 5	to	TO
 6	have	VB
 7	um	UH
-8	lunch	VB
+8	lunch	NN
 9	.	.
 
 1	uh	UH
@@ -4290,7 +4290,7 @@
 5	to	TO
 6	have	VB
 7	um	UH
-8	lunch	VB
+8	lunch	NN
 9	.	.
 
 1	i	PRP
@@ -4355,7 +4355,7 @@
 1	i	PRP
 2	do	VBP
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	to	TO
 6	spend	VB
 7	more	JJR
@@ -4367,7 +4367,7 @@
 1	i	PRP
 2	do	VBP
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	to	TO
 6	spend	VB
 7	more	JJR
@@ -4398,7 +4398,7 @@
 6	uh	UH
 7	on	IN
 8	next	JJ
-9	wednesday	NNP
+9	wednesday	NN
 10	.	.
 
 1	i	PRP
@@ -4409,7 +4409,7 @@
 6	uh	UH
 7	on	IN
 8	next	JJ
-9	wednesday	NNP
+9	wednesday	NN
 10	.	.
 
 1	hello	UH
@@ -4533,7 +4533,7 @@
 2	i	PRP
 3	do	VBP
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	have	VB
 8	breakfast	NN
@@ -4548,7 +4548,7 @@
 2	i	PRP
 3	do	VBP
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	have	VB
 8	breakfast	NN
@@ -4563,7 +4563,7 @@
 2	i	PRP
 3	do	VBP
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	have	VB
 8	breakfast	NN
@@ -4631,7 +4631,7 @@
 7	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	dinner	NN
@@ -4639,7 +4639,7 @@
 
 1	uh	UH
 2	i	PRP
-3	like	VBP
+3	like	VB
 4	to	TO
 5	have	VB
 6	lunch	NN
@@ -4670,7 +4670,7 @@
 3	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	mexican	JJ
@@ -4684,7 +4684,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4699,7 +4699,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4714,7 +4714,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4729,7 +4729,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4744,7 +4744,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4759,7 +4759,7 @@
 3	and	CC
 4	uh	UH
 5	i	PRP
-6	like	VBP
+6	like	VB
 7	to	TO
 8	spend	VB
 9	no	DT
@@ -4770,7 +4770,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4785,7 +4785,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4800,7 +4800,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4815,7 +4815,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4830,7 +4830,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4845,7 +4845,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4860,7 +4860,7 @@
 14	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	eat	VB
 5	this	DT
@@ -4973,7 +4973,7 @@
 3	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	uh	UH
@@ -4987,7 +4987,7 @@
 13	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	uh	UH
@@ -5001,7 +5001,7 @@
 13	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	uh	UH
@@ -5015,7 +5015,7 @@
 13	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	uh	UH
@@ -5029,7 +5029,7 @@
 13	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	to	TO
 4	have	VB
 5	uh	UH
@@ -5053,7 +5053,7 @@
 1	i	PRP
 2	do	VBP
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	to	TO
 6	spend	VB
 7	more	JJR
@@ -5155,56 +5155,56 @@
 6	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
 1	i	PRP
-2	like	VBP
+2	like	VB
 3	information	NN
 4	about	IN
 5	berkeley	NN
-6	thai	DT
+6	thai	JJ
 7	house	NN
 8	.	.
 
@@ -5296,7 +5296,7 @@
 2	i	PRP
 3	do	VBP
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	spend	VB
 8	much	JJ
@@ -5321,7 +5321,7 @@
 9	.	.
 
 1	i	PRP
-2	have	VBP
+2	have	VB
 3	no	DT
 4	money	NN
 5	.	.
@@ -5369,14 +5369,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5399,14 +5399,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5429,14 +5429,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5459,14 +5459,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5489,14 +5489,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5519,14 +5519,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5549,14 +5549,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5579,14 +5579,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5609,14 +5609,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5639,14 +5639,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5669,14 +5669,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5699,14 +5699,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5729,14 +5729,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5759,14 +5759,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5789,14 +5789,14 @@
 12	what	WP
 13	do	VBP
 14	i	PRP
-15	want	VB
+15	want	VBP
 16	i	PRP
 17	want	VBP
 18	to	TO
 19	know	VB
 20	if	IN
 21	they	PRP
-22	have	VBP
+22	have	VB
 23	oh	UH
 24	saday	JJ
 25	beef	NN
@@ -5810,7 +5810,7 @@
 3	me	PRP
 4	if	IN
 5	you	PRP
-6	like	VBP
+6	like	VB
 7	oriental	JJ
 8	food	NN
 9	to	TO
@@ -5822,7 +5822,7 @@
 3	me	PRP
 4	if	IN
 5	you	PRP
-6	like	VBP
+6	like	VB
 7	oriental	JJ
 8	food	NN
 9	to	TO
@@ -5834,7 +5834,7 @@
 3	me	PRP
 4	if	IN
 5	you	PRP
-6	like	VBP
+6	like	VB
 7	oriental	JJ
 8	food	NN
 9	to	TO
@@ -5846,7 +5846,7 @@
 3	me	PRP
 4	if	IN
 5	you	PRP
-6	like	VBP
+6	like	VB
 7	oriental	JJ
 8	food	NN
 9	to	TO
@@ -5878,8 +5878,8 @@
 1	i	PRP
 2	'll	MD
 3	pay	VB
-4	up	RB
-5	to	TO
+4	up	RP
+5	to	IN
 6	twenty	CD
 7	dollars	NNS
 8	.	.
@@ -5887,8 +5887,8 @@
 1	i	PRP
 2	'll	MD
 3	pay	VB
-4	up	RB
-5	to	TO
+4	up	RP
+5	to	IN
 6	twenty	CD
 7	dollars	NNS
 8	.	.
@@ -5896,8 +5896,8 @@
 1	i	PRP
 2	'll	MD
 3	pay	VB
-4	up	RB
-5	to	TO
+4	up	RP
+5	to	IN
 6	twenty	CD
 7	dollars	NNS
 8	.	.
@@ -5905,8 +5905,8 @@
 1	i	PRP
 2	'll	MD
 3	pay	VB
-4	up	RB
-5	to	TO
+4	up	RP
+5	to	IN
 6	twenty	CD
 7	dollars	NNS
 8	.	.
@@ -5949,7 +5949,7 @@
 9	.	.
 
 1	i	PRP
-2	have	VBP
+2	have	VB
 3	a	DT
 4	car	NN
 5	.	.
@@ -6795,13 +6795,13 @@
 6	food	NN
 7	.	.
 
-1	howbout	NN
-2	thai	DT
+1	howbout	WRB
+2	thai	JJ
 3	food	NN
 4	.	.
 
-1	howbout	NN
-2	thai	DT
+1	howbout	WRB
+2	thai	JJ
 3	food	NN
 4	.	.
 
@@ -6864,7 +6864,7 @@
 2	me	PRP
 3	everything	NN
 4	you	PRP
-5	know	VBP
+5	know	VB
 6	about	IN
 7	thai	DT
 8	barbecue	NN
@@ -6874,7 +6874,7 @@
 2	me	PRP
 3	everything	NN
 4	you	PRP
-5	know	VBP
+5	know	VB
 6	about	IN
 7	thai	DT
 8	barbecue	NN
@@ -6884,7 +6884,7 @@
 2	me	PRP
 3	everything	NN
 4	you	PRP
-5	know	VBP
+5	know	VB
 6	about	IN
 7	thai	DT
 8	barbecue	NN
@@ -6894,24 +6894,24 @@
 2	me	PRP
 3	everything	NN
 4	you	PRP
-5	know	VBP
+5	know	VB
 6	about	IN
 7	thai	DT
 8	barbecue	NN
 9	.	.
 
-1	nina	NNP
-2	thinks	VBZ
+1	nina	RB
+2	thinks	VB
 3	you	PRP
 4	're	VBP
-5	totally	RB
-6	cool	JJ
+5	totally	JJ
+6	cool	NN
 7	.	.
 
 1	i	PRP
 2	'm	VBP
 3	into	IN
-4	chinese	NNS
+4	chinese	JJ
 5	.	.
 
 1	start	VB
@@ -7150,7 +7150,7 @@
 9	tasty	JJ
 10	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7158,7 +7158,7 @@
 6	expensive	JJ
 7	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7166,7 +7166,7 @@
 6	expensive	JJ
 7	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7174,7 +7174,7 @@
 6	expensive	JJ
 7	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7182,7 +7182,7 @@
 6	expensive	JJ
 7	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7190,7 +7190,7 @@
 6	expensive	JJ
 7	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	go	VB
 4	some	DT
@@ -7225,7 +7225,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7243,7 +7243,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7261,7 +7261,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7279,7 +7279,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7297,7 +7297,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7315,7 +7315,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7333,7 +7333,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7351,7 +7351,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7369,7 +7369,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7387,7 +7387,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7405,7 +7405,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7423,7 +7423,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7441,7 +7441,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7459,7 +7459,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7477,7 +7477,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7495,7 +7495,7 @@
 1	okay	UH
 2	look	VB
 3	i	PRP
-4	wan	JJ
+4	wan	VBP
 5	na	TO
 6	eat	VB
 7	dinner	NN
@@ -7510,7 +7510,7 @@
 16	okay	UH
 17	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7521,10 +7521,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7535,10 +7535,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7549,10 +7549,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7563,10 +7563,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7577,10 +7577,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7591,10 +7591,10 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
-1	like	UH
+1	like	VB
 2	to	TO
 3	spend	VB
 4	up	RP
@@ -7605,7 +7605,7 @@
 9	i	PRP
 10	'm	VBP
 11	a	DT
-12	vegetarian	NN
+12	vegetarian	JJ
 13	.	.
 
 1	how	WRB
@@ -7957,7 +7957,7 @@
 7	money	NN
 8	for	IN
 9	good	JJ
-10	vietnamese	NN
+10	vietnamese	JJ
 11	food	NN
 12	.	.
 
@@ -7970,7 +7970,7 @@
 7	money	NN
 8	for	IN
 9	good	JJ
-10	vietnamese	NN
+10	vietnamese	JJ
 11	food	NN
 12	.	.
 
@@ -7983,7 +7983,7 @@
 7	money	NN
 8	for	IN
 9	good	JJ
-10	vietnamese	NN
+10	vietnamese	JJ
 11	food	NN
 12	.	.
 
@@ -7996,7 +7996,7 @@
 7	money	NN
 8	for	IN
 9	good	JJ
-10	vietnamese	NN
+10	vietnamese	JJ
 11	food	NN
 12	.	.
 
@@ -8009,7 +8009,7 @@
 7	money	NN
 8	for	IN
 9	good	JJ
-10	vietnamese	NN
+10	vietnamese	JJ
 11	food	NN
 12	.	.
 
@@ -8077,9 +8077,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8092,9 +8092,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8107,9 +8107,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8122,9 +8122,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8137,9 +8137,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8152,9 +8152,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8167,9 +8167,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8182,9 +8182,9 @@
 1	can	MD
 2	i	PRP
 3	go	VB
-4	to	IN
+4	to	TO
 5	just	RB
-6	like	IN
+6	like	VB
 7	a	DT
 8	normal	JJ
 9	american	JJ
@@ -8372,7 +8372,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8388,7 +8388,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8404,7 +8404,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8420,7 +8420,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8436,7 +8436,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8452,7 +8452,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8468,7 +8468,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8484,7 +8484,7 @@
 6	shell	VB
 7	out	RP
 8	anything	NN
-9	up	RP
+9	up	RB
 10	to	IN
 11	about	IN
 12	uh	UH
@@ -8494,7 +8494,7 @@
 
 1	so	RB
 2	which	WDT
-3	one	CD
+3	one	NN
 4	of	IN
 5	these	DT
 6	places	NNS
@@ -8503,13 +8503,13 @@
 9	good	JJ
 10	.	.
 
-1	howbout	WRB
+1	howbout	RB
 2	an	DT
 3	american	JJ
 4	restaurant	NN
 5	.	.
 
-1	howbout	WRB
+1	howbout	RB
 2	an	DT
 3	american	JJ
 4	restaurant	NN
@@ -8530,9 +8530,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8549,9 +8549,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8568,9 +8568,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8587,9 +8587,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8606,9 +8606,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8625,9 +8625,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8644,9 +8644,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8663,9 +8663,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8682,9 +8682,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8701,9 +8701,9 @@
 5	go	VB
 6	for	IN
 7	dinner	NN
-8	to	TO
-9	kind	RB
-10	of	RB
+8	to	IN
+9	kind	NN
+10	of	IN
 11	upscale	JJ
 12	yuppie	NN
 13	california	NN
@@ -8716,7 +8716,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8725,7 +8725,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8734,7 +8734,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8743,7 +8743,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8752,7 +8752,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8761,7 +8761,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8770,7 +8770,7 @@
 1	i	PRP
 2	want	VBP
 3	a	DT
-4	california	NN
+4	california	JJ
 5	cuisine	NN
 6	restaurant	NN
 7	please	UH
@@ -8780,7 +8780,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8791,7 +8791,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8802,7 +8802,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8813,7 +8813,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8824,7 +8824,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8835,7 +8835,7 @@
 2	want	VBP
 3	dinner	NN
 4	on	IN
-5	friday	JJ
+5	friday	NN
 6	night	NN
 7	and	CC
 8	no	DT
@@ -8924,7 +8924,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -8940,7 +8940,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -8956,7 +8956,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -8972,7 +8972,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -8988,7 +8988,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9004,7 +9004,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9020,7 +9020,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9036,7 +9036,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9052,7 +9052,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9068,7 +9068,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9084,7 +9084,7 @@
 
 1	i	PRP
 2	want	VBP
-3	like	UH
+3	like	VB
 4	just	RB
 5	an	DT
 6	authentic	JJ
@@ -9156,7 +9156,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9178,7 +9178,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9200,7 +9200,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9222,7 +9222,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9244,7 +9244,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9266,7 +9266,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9288,7 +9288,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9310,7 +9310,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9332,7 +9332,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9354,7 +9354,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9376,7 +9376,7 @@
 9	quick	JJ
 10	for	IN
 11	lunch	NN
-12	get	VBP
+12	get	VB
 13	a	DT
 14	sandwich	NN
 15	bring	VB
@@ -9415,7 +9415,7 @@
 2	'm	VBP
 3	on	IN
 4	foot	NN
-5	so	IN
+5	so	RB
 6	it	PRP
 7	better	RB
 8	be	VB
@@ -9426,7 +9426,7 @@
 2	'm	VBP
 3	on	IN
 4	foot	NN
-5	so	IN
+5	so	RB
 6	it	PRP
 7	better	RB
 8	be	VB
@@ -9437,7 +9437,7 @@
 2	'm	VBP
 3	on	IN
 4	foot	NN
-5	so	IN
+5	so	RB
 6	it	PRP
 7	better	RB
 8	be	VB
@@ -9448,7 +9448,7 @@
 2	'm	VBP
 3	on	IN
 4	foot	NN
-5	so	IN
+5	so	RB
 6	it	PRP
 7	better	RB
 8	be	VB
@@ -9459,7 +9459,7 @@
 2	'm	VBP
 3	on	IN
 4	foot	NN
-5	so	IN
+5	so	RB
 6	it	PRP
 7	better	RB
 8	be	VB
@@ -9659,7 +9659,7 @@
 4	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9668,7 +9668,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9677,7 +9677,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9686,7 +9686,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9695,7 +9695,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9704,7 +9704,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	closest	JJS
@@ -9713,7 +9713,7 @@
 8	.	.
 
 1	which	WDT
-2	one	CD
+2	one	NN
 3	is	VBZ
 4	the	DT
 5	cheapest	JJS
@@ -10048,7 +10048,7 @@
 3	any	DT
 4	other	JJ
 5	restaurant	NN
-6	close	JJ
+6	close	RB
 7	to	IN
 8	this	DT
 9	one	NN
@@ -10059,7 +10059,7 @@
 3	any	DT
 4	other	JJ
 5	restaurant	NN
-6	close	JJ
+6	close	RB
 7	to	IN
 8	this	DT
 9	one	NN
@@ -10377,81 +10377,81 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
-5	bombay	NN
+5	bombay	JJ
 6	cuisine	NN
 7	please	UH
 8	.	.
@@ -10464,7 +10464,7 @@
 6	they	PRP
 7	have	VB
 8	at	IN
-9	shin-shin	NN
+9	shin-shin	JJ
 10	.	.
 
 1	what	WP
@@ -10475,7 +10475,7 @@
 6	they	PRP
 7	have	VB
 8	at	IN
-9	shin-shin	NN
+9	shin-shin	JJ
 10	.	.
 
 1	i	PRP
@@ -10665,7 +10665,7 @@
 1	what	WP
 2	's	VBZ
 3	the	DT
-4	most	RBS
+4	most	JJS
 5	expensive	JJ
 6	one	NN
 7	.	.
@@ -10673,7 +10673,7 @@
 1	what	WP
 2	's	VBZ
 3	the	DT
-4	most	RBS
+4	most	JJS
 5	expensive	JJ
 6	one	NN
 7	.	.
@@ -10681,14 +10681,14 @@
 1	what	WP
 2	's	VBZ
 3	the	DT
-4	most	RBS
+4	most	JJS
 5	expensive	JJ
 6	one	NN
 7	.	.
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	this	DT
 6	place	NN
@@ -10696,7 +10696,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	this	DT
 6	place	NN
@@ -10704,7 +10704,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	this	DT
 6	place	NN
@@ -10712,7 +10712,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	this	DT
 6	place	NN
@@ -10835,7 +10835,7 @@
 2	n't	RB
 3	there	EX
 4	any	DT
-5	less	RBR
+5	less	JJR
 6	expensive	JJ
 7	ones	NNS
 8	.	.
@@ -10844,7 +10844,7 @@
 2	n't	RB
 3	there	EX
 4	any	DT
-5	less	RBR
+5	less	JJR
 6	expensive	JJ
 7	ones	NNS
 8	.	.
@@ -10853,7 +10853,7 @@
 2	n't	RB
 3	there	EX
 4	any	DT
-5	less	RBR
+5	less	JJR
 6	expensive	JJ
 7	ones	NNS
 8	.	.
@@ -10898,14 +10898,14 @@
 8	please	UH
 9	.	.
 
-1	list	VBP
+1	list	VB
 2	other	JJ
 3	italian	JJ
 4	restaurants	NNS
 5	please	UH
 6	.	.
 
-1	list	VBP
+1	list	VB
 2	other	JJ
 3	italian	JJ
 4	restaurants	NNS
@@ -11118,7 +11118,7 @@
 
 1	as	RB
 2	far	RB
-3	as	IN
+3	as	RB
 4	you	PRP
 5	want	VBP
 6	.	.
@@ -11401,7 +11401,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11413,7 +11413,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11425,7 +11425,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11437,7 +11437,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11449,7 +11449,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11461,7 +11461,7 @@
 3	you	PRP
 4	tell	VB
 5	me	PRP
-6	more	JJR
+6	more	RBR
 7	about	IN
 8	the	DT
 9	uh	UH
@@ -11473,7 +11473,7 @@
 3	thank	VBP
 4	you	PRP
 5	very	RB
-6	much	RB
+6	much	JJ
 7	.	.
 
 1	good	JJ
@@ -11481,7 +11481,7 @@
 3	thank	VBP
 4	you	PRP
 5	very	RB
-6	much	RB
+6	much	JJ
 7	.	.
 
 1	uh	UH
@@ -11705,7 +11705,7 @@
 5	a	DT
 6	restaurant	NN
 7	uh	UH
-8	near	IN
+8	near	RB
 9	solano	JJ
 10	avenue	NN
 11	.	.
@@ -11717,7 +11717,7 @@
 5	a	DT
 6	restaurant	NN
 7	uh	UH
-8	near	IN
+8	near	RB
 9	solano	JJ
 10	avenue	NN
 11	.	.
@@ -11729,7 +11729,7 @@
 5	a	DT
 6	restaurant	NN
 7	uh	UH
-8	near	IN
+8	near	RB
 9	solano	JJ
 10	avenue	NN
 11	.	.
@@ -11805,21 +11805,21 @@
 
 1	uh	UH
 2	very	RB
-3	close	RB
+3	close	JJ
 4	to	IN
 5	icksee	NN
 6	.	.
 
 1	uh	UH
 2	very	RB
-3	close	RB
+3	close	JJ
 4	to	IN
 5	icksee	NN
 6	.	.
 
 1	uh	UH
 2	very	RB
-3	close	RB
+3	close	JJ
 4	to	IN
 5	icksee	NN
 6	.	.
@@ -11946,7 +11946,7 @@
 5	information	NN
 6	about	IN
 7	uh	UH
-8	siam	NN
+8	siam	JJ
 9	cuisine	NN
 10	.	.
 
@@ -11957,7 +11957,7 @@
 5	information	NN
 6	about	IN
 7	uh	UH
-8	siam	NN
+8	siam	JJ
 9	cuisine	NN
 10	.	.
 
@@ -11968,7 +11968,7 @@
 5	information	NN
 6	about	IN
 7	uh	UH
-8	siam	NN
+8	siam	JJ
 9	cuisine	NN
 10	.	.
 
@@ -11998,7 +11998,7 @@
 6	me	PRP
 7	with	IN
 8	something	NN
-9	japanese	NNS
+9	japanese	JJ
 10	for	IN
 11	dinner	NN
 12	.	.
@@ -12011,7 +12011,7 @@
 6	me	PRP
 7	with	IN
 8	something	NN
-9	japanese	NNS
+9	japanese	JJ
 10	for	IN
 11	dinner	NN
 12	.	.
@@ -12024,7 +12024,7 @@
 6	me	PRP
 7	with	IN
 8	something	NN
-9	japanese	NNS
+9	japanese	JJ
 10	for	IN
 11	dinner	NN
 12	.	.
@@ -12037,7 +12037,7 @@
 6	me	PRP
 7	with	IN
 8	something	NN
-9	japanese	NNS
+9	japanese	JJ
 10	for	IN
 11	dinner	NN
 12	.	.
@@ -12129,7 +12129,7 @@
 7	yoshi's	PRP
 8	.	.
 
-1	talking	VBG
+1	talking	VB
 2	about	IN
 3	spanish	JJ
 4	restaurants	NNS
@@ -12249,7 +12249,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12258,7 +12258,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12267,7 +12267,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12276,7 +12276,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12285,7 +12285,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12294,7 +12294,7 @@
 
 1	tell	VB
 2	me	PRP
-3	more	JJR
+3	more	RBR
 4	about	IN
 5	the	DT
 6	cafe	NN
@@ -12581,7 +12581,7 @@
 5	four	CD
 6	minutes	NNS
 7	from	IN
-8	icsi	NNS
+8	icsi	NN
 9	.	.
 
 1	which	WDT
@@ -12591,7 +12591,7 @@
 5	four	CD
 6	minutes	NNS
 7	from	IN
-8	icsi	NNS
+8	icsi	NN
 9	.	.
 
 1	which	WDT
@@ -12601,7 +12601,7 @@
 5	four	CD
 6	minutes	NNS
 7	from	IN
-8	icsi	NNS
+8	icsi	NN
 9	.	.
 
 1	which	WDT
@@ -12611,7 +12611,7 @@
 5	four	CD
 6	minutes	NNS
 7	from	IN
-8	icsi	NNS
+8	icsi	NN
 9	.	.
 
 1	start	VB
@@ -12872,19 +12872,19 @@
 1	i	PRP
 2	do	VBP
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	thai	DT
 6	food	NN
 7	.	.
 
-1	no	DT
+1	no	UH
 2	thai	JJ
 3	food	NN
 4	for	IN
 5	me	PRP
 6	.	.
 
-1	no	DT
+1	no	UH
 2	thai	JJ
 3	food	NN
 4	for	IN
@@ -12929,14 +12929,14 @@
 2	me	PRP
 3	about	IN
 4	caffe	NN
-5	giovanni	NNS
+5	giovanni	NN
 6	.	.
 
 1	tell	VB
 2	me	PRP
 3	about	IN
 4	caffe	NN
-5	giovanni	NNS
+5	giovanni	NN
 6	.	.
 
 1	tell	VB
@@ -12998,7 +12998,7 @@
 1	tell	VB
 2	me	PRP
 3	about	IN
-4	juan	NN
+4	juan	NNP
 5	's	POS
 6	place	NN
 7	.	.
@@ -13146,35 +13146,35 @@
 1	what	WP
 2	's	VBZ
 3	kip	NN
-4	's	VBZ
-5	like	IN
+4	's	POS
+5	like	VB
 6	.	.
 
 1	what	WP
 2	's	VBZ
 3	kip	NN
-4	's	VBZ
-5	like	IN
+4	's	POS
+5	like	VB
 6	.	.
 
 1	what	WP
 2	's	VBZ
 3	kip	NN
-4	's	VBZ
-5	like	IN
+4	's	POS
+5	like	VB
 6	.	.
 
 1	what	WP
 2	's	VBZ
 3	kip	NN
-4	's	VBZ
-5	like	IN
+4	's	POS
+5	like	VB
 6	.	.
 
 1	tell	VB
 2	me	PRP
 3	about	IN
-4	kip's	NNS
+4	kip's	NN
 5	.	.
 
 1	show	VB
@@ -13285,35 +13285,35 @@
 
 1	what	WP
 2	about	IN
-3	la	DT
+3	la	JJ
 4	tour	NN
 5	eiffel	NN
 6	.	.
 
 1	what	WP
 2	about	IN
-3	la	DT
+3	la	JJ
 4	tour	NN
 5	eiffel	NN
 6	.	.
 
 1	what	WP
 2	about	IN
-3	la	DT
+3	la	JJ
 4	tour	NN
 5	eiffel	NN
 6	.	.
 
 1	what	WP
 2	about	IN
-3	la	DT
+3	la	JJ
 4	tour	NN
 5	eiffel	NN
 6	.	.
 
 1	what	WP
 2	about	IN
-3	la	DT
+3	la	JJ
 4	tour	NN
 5	eiffel	NN
 6	.	.
@@ -13346,16 +13346,16 @@
 
 1	what	WP
 2	about	IN
-3	taqueria	NNP
-4	de	NNP
-5	berkeley	NNP
+3	taqueria	FW
+4	de	FW
+5	berkeley	FW
 6	.	.
 
 1	what	WP
 2	about	IN
-3	taqueria	NNP
-4	de	NNP
-5	berkeley	NNP
+3	taqueria	FW
+4	de	FW
+5	berkeley	FW
 6	.	.
 
 1	please	UH
@@ -13424,7 +13424,7 @@
 7	five	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	i	PRP
@@ -13436,7 +13436,7 @@
 7	five	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	i	PRP
@@ -13448,7 +13448,7 @@
 7	five	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	what	WP
@@ -13514,7 +13514,7 @@
 7	ten	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	i	PRP
@@ -13526,7 +13526,7 @@
 7	ten	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	i	PRP
@@ -13538,7 +13538,7 @@
 7	ten	CD
 8	minutes	NNS
 9	from	IN
-10	icsi	NNS
+10	icsi	NN
 11	.	.
 
 1	i	PRP
@@ -13609,37 +13609,37 @@
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
 1	what	WP
 2	about	IN
-3	ristorante	VBP
+3	ristorante	NN
 4	venezia	NN
 5	.	.
 
@@ -13713,28 +13713,28 @@
 10	dollars	NNS
 11	.	.
 
-1	no	DT
+1	no	UH
 2	more	JJR
 3	than	IN
 4	fifteen	CD
 5	dollars	NNS
 6	.	.
 
-1	no	DT
+1	no	UH
 2	more	JJR
 3	than	IN
 4	fifteen	CD
 5	dollars	NNS
 6	.	.
 
-1	no	DT
+1	no	UH
 2	more	JJR
 3	than	IN
 4	fifteen	CD
 5	dollars	NNS
 6	.	.
 
-1	no	DT
+1	no	UH
 2	more	JJR
 3	than	IN
 4	fifteen	CD
@@ -13753,7 +13753,7 @@
 10	north	NN
 11	side	NN
 12	um	UH
-13	chinese	NN
+13	chinese	JJ
 14	or	CC
 15	could	MD
 16	be	VB
@@ -13774,7 +13774,7 @@
 10	north	NN
 11	side	NN
 12	um	UH
-13	chinese	NN
+13	chinese	JJ
 14	or	CC
 15	could	MD
 16	be	VB
@@ -13795,7 +13795,7 @@
 10	north	NN
 11	side	NN
 12	um	UH
-13	chinese	NN
+13	chinese	JJ
 14	or	CC
 15	could	MD
 16	be	VB
@@ -13816,7 +13816,7 @@
 10	north	NN
 11	side	NN
 12	um	UH
-13	chinese	NN
+13	chinese	JJ
 14	or	CC
 15	could	MD
 16	be	VB
@@ -13837,7 +13837,7 @@
 10	north	NN
 11	side	NN
 12	um	UH
-13	chinese	NN
+13	chinese	JJ
 14	or	CC
 15	could	MD
 16	be	VB
@@ -13987,7 +13987,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14011,7 +14011,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14035,7 +14035,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14059,7 +14059,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14083,7 +14083,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14107,7 +14107,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14131,7 +14131,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14155,7 +14155,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14179,7 +14179,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14203,7 +14203,7 @@
 13	pretty	RB
 14	far	RB
 15	away	RB
-16	say	VBP
+16	say	VB
 17	thirty	CD
 18	minutes	NNS
 19	'	POS
@@ -14278,7 +14278,7 @@
 3	n't	RB
 4	matter	VB
 5	i	PRP
-6	have	VBP
+6	have	VB
 7	a	DT
 8	car	NN
 9	.	.
@@ -14288,7 +14288,7 @@
 3	n't	RB
 4	matter	VB
 5	i	PRP
-6	have	VBP
+6	have	VB
 7	a	DT
 8	car	NN
 9	.	.
@@ -14587,7 +14587,7 @@
 1	i	PRP
 2	do	VBP
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	to	TO
 6	pay	VB
 7	more	JJR
@@ -14612,7 +14612,7 @@
 7	restaurant	NN
 8	that	WDT
 9	's	VBZ
-10	real	RB
+10	real	JJ
 11	close	JJ
 12	.	.
 
@@ -14625,7 +14625,7 @@
 7	restaurant	NN
 8	that	WDT
 9	's	VBZ
-10	real	RB
+10	real	JJ
 11	close	JJ
 12	.	.
 
@@ -14653,7 +14653,7 @@
 
 1	real	JJ
 2	cheap	JJ
-3	like	UH
+3	like	IN
 4	three	CD
 5	to	TO
 6	four	CD
@@ -14662,7 +14662,7 @@
 
 1	real	JJ
 2	cheap	JJ
-3	like	UH
+3	like	IN
 4	three	CD
 5	to	TO
 6	four	CD
@@ -14671,7 +14671,7 @@
 
 1	real	JJ
 2	cheap	JJ
-3	like	UH
+3	like	IN
 4	three	CD
 5	to	TO
 6	four	CD
@@ -14680,7 +14680,7 @@
 
 1	real	JJ
 2	cheap	JJ
-3	like	UH
+3	like	IN
 4	three	CD
 5	to	TO
 6	four	CD
@@ -14771,7 +14771,7 @@
 5	quite	RB
 6	far	RB
 7	from	IN
-8	icksee	PRP
+8	icksee	NN
 9	.	.
 
 1	okay	UH
@@ -14781,7 +14781,7 @@
 5	quite	RB
 6	far	RB
 7	from	IN
-8	icksee	PRP
+8	icksee	NN
 9	.	.
 
 1	okay	UH
@@ -14791,7 +14791,7 @@
 5	quite	RB
 6	far	RB
 7	from	IN
-8	icksee	PRP
+8	icksee	NN
 9	.	.
 
 1	thursday	NN
@@ -15479,7 +15479,7 @@
 1	tell	VB
 2	me	PRP
 3	about	IN
-4	plearn's	NNS
+4	plearn's	NN
 5	.	.
 
 1	tell	VB
@@ -15531,15 +15531,15 @@
 12	that	DT
 13	.	.
 
-1	caffe	NN
+1	caffe	JJ
 2	giovanni	NN
 3	.	.
 
-1	caffe	NN
+1	caffe	JJ
 2	giovanni	NN
 3	.	.
 
-1	caffe	NN
+1	caffe	JJ
 2	giovanni	NN
 3	.	.
 
@@ -15730,19 +15730,19 @@
 3	.	.
 
 1	twenty	CD
-2	to	IN
+2	to	TO
 3	thirty	CD
 4	dollars	NNS
 5	.	.
 
 1	twenty	CD
-2	to	IN
+2	to	TO
 3	thirty	CD
 4	dollars	NNS
 5	.	.
 
 1	twenty	CD
-2	to	IN
+2	to	TO
 3	thirty	CD
 4	dollars	NNS
 5	.	.
@@ -15957,7 +15957,7 @@
 6	out	RP
 7	and	CC
 8	eat	VB
-9	chinese	NNS
+9	chinese	JJ
 10	.	.
 
 1	okay	UH
@@ -15968,7 +15968,7 @@
 6	out	RP
 7	and	CC
 8	eat	VB
-9	chinese	NNS
+9	chinese	JJ
 10	.	.
 
 1	okay	UH
@@ -15979,7 +15979,7 @@
 6	out	RP
 7	and	CC
 8	eat	VB
-9	chinese	NNS
+9	chinese	JJ
 10	.	.
 
 1	well	UH
@@ -16083,7 +16083,7 @@
 7	dinner	NN
 8	.	.
 
-1	that	DT
+1	that	WDT
 2	does	VBZ
 3	n't	RB
 4	really	RB
@@ -16200,7 +16200,7 @@
 2	okay	UH
 3	let	VB
 4	's	PRP
-5	try	VB
+5	try	VBP
 6	again	RB
 7	i	PRP
 8	want	VBP
@@ -16220,7 +16220,7 @@
 2	okay	UH
 3	let	VB
 4	's	PRP
-5	try	VB
+5	try	VBP
 6	again	RB
 7	i	PRP
 8	want	VBP
@@ -16240,7 +16240,7 @@
 2	okay	UH
 3	let	VB
 4	's	PRP
-5	try	VB
+5	try	VBP
 6	again	RB
 7	i	PRP
 8	want	VBP
@@ -16260,7 +16260,7 @@
 2	okay	UH
 3	let	VB
 4	's	PRP
-5	try	VB
+5	try	VBP
 6	again	RB
 7	i	PRP
 8	want	VBP
@@ -16280,7 +16280,7 @@
 2	okay	UH
 3	let	VB
 4	's	PRP
-5	try	VB
+5	try	VBP
 6	again	RB
 7	i	PRP
 8	want	VBP
@@ -16313,7 +16313,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16323,7 +16323,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16333,7 +16333,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16343,7 +16343,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16353,7 +16353,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16363,7 +16363,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16373,7 +16373,7 @@
 4	also	RB
 5	open	JJ
 6	on	IN
-7	monday	JJ
+7	monday	NNP
 8	evening	NN
 9	.	.
 
@@ -16388,7 +16388,7 @@
 9	also	RB
 10	open	JJ
 11	on	IN
-12	monday	JJ
+12	monday	NNP
 13	evening	NN
 14	.	.
 
@@ -16403,7 +16403,7 @@
 9	also	RB
 10	open	JJ
 11	on	IN
-12	monday	JJ
+12	monday	NNP
 13	evening	NN
 14	.	.
 
@@ -16418,7 +16418,7 @@
 9	also	RB
 10	open	JJ
 11	on	IN
-12	monday	JJ
+12	monday	NNP
 13	evening	NN
 14	.	.
 
@@ -16433,7 +16433,7 @@
 9	also	RB
 10	open	JJ
 11	on	IN
-12	monday	JJ
+12	monday	NNP
 13	evening	NN
 14	.	.
 
@@ -16448,14 +16448,14 @@
 9	also	RB
 10	open	JJ
 11	on	IN
-12	monday	JJ
+12	monday	NNP
 13	evening	NN
 14	.	.
 
 1	okay	UH
 2	let	VB
 3	's	PRP
-4	try	VB
+4	try	VBP
 5	again	RB
 6	what	WP
 7	about	IN
@@ -16466,7 +16466,7 @@
 1	okay	UH
 2	let	VB
 3	's	PRP
-4	try	VB
+4	try	VBP
 5	again	RB
 6	what	WP
 7	about	IN
@@ -16477,7 +16477,7 @@
 1	okay	UH
 2	let	VB
 3	's	PRP
-4	try	VB
+4	try	VBP
 5	again	RB
 6	what	WP
 7	about	IN
@@ -16488,7 +16488,7 @@
 1	okay	UH
 2	let	VB
 3	's	PRP
-4	try	VB
+4	try	VBP
 5	again	RB
 6	what	WP
 7	about	IN
@@ -16731,7 +16731,7 @@
 2	'd	MD
 3	did	VBD
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	go	VB
 8	to	IN
@@ -16750,7 +16750,7 @@
 2	'd	MD
 3	did	VBD
 4	n't	RB
-5	want	VB
+5	want	VBP
 6	to	TO
 7	go	VB
 8	to	IN
@@ -16784,10 +16784,10 @@
 1	i	PRP
 2	did	VBD
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	a	DT
 6	plearn	NN
-7	's	POS
+7	's	VBZ
 8	i	PRP
 9	want	VBP
 10	a	DT
@@ -16797,10 +16797,10 @@
 1	i	PRP
 2	did	VBD
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	a	DT
 6	plearn	NN
-7	's	POS
+7	's	VBZ
 8	i	PRP
 9	want	VBP
 10	a	DT
@@ -16810,10 +16810,10 @@
 1	i	PRP
 2	did	VBD
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	a	DT
 6	plearn	NN
-7	's	POS
+7	's	VBZ
 8	i	PRP
 9	want	VBP
 10	a	DT
@@ -16823,10 +16823,10 @@
 1	i	PRP
 2	did	VBD
 3	n't	RB
-4	want	VB
+4	want	VBP
 5	a	DT
 6	plearn	NN
-7	's	POS
+7	's	VBZ
 8	i	PRP
 9	want	VBP
 10	a	DT
@@ -16885,7 +16885,7 @@
 
 1	not	RB
 2	very	RB
-3	much	RB
+3	much	JJ
 4	if	IN
 5	it	PRP
 6	's	VBZ
@@ -16894,7 +16894,7 @@
 
 1	not	RB
 2	very	RB
-3	much	RB
+3	much	JJ
 4	if	IN
 5	it	PRP
 6	's	VBZ
@@ -16903,7 +16903,7 @@
 
 1	not	RB
 2	very	RB
-3	much	RB
+3	much	JJ
 4	if	IN
 5	it	PRP
 6	's	VBZ
@@ -16912,7 +16912,7 @@
 
 1	not	RB
 2	very	RB
-3	much	RB
+3	much	JJ
 4	if	IN
 5	it	PRP
 6	's	VBZ
@@ -17118,7 +17118,7 @@
 3	restaurant	NN
 4	would	MD
 5	be	VB
-6	okay	JJ
+6	okay	UH
 7	.	.
 
 1	any	DT
@@ -17126,7 +17126,7 @@
 3	restaurant	NN
 4	would	MD
 5	be	VB
-6	okay	JJ
+6	okay	UH
 7	.	.
 
 1	i	PRP
@@ -17148,7 +17148,7 @@
 2	au-coquelet	NN
 3	.	.
 
-1	that	DT
+1	that	WDT
 2	is	VBZ
 3	n't	RB
 4	the	DT
@@ -17161,7 +17161,7 @@
 11	au-coquelet	NN
 12	.	.
 
-1	that	DT
+1	that	WDT
 2	is	VBZ
 3	n't	RB
 4	the	DT
